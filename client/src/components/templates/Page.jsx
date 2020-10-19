@@ -73,7 +73,7 @@ export default function PageLayout({ tabs, children }) {
   const changeView = (event, newTab) => {
     setActiveTab(newTab);
   };
-  console.log(children);
+
   const theme = useTheme();
 
   return (
